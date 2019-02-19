@@ -1,0 +1,7 @@
+urls:
+  base_url: "https://shop.by/"
+  notebooks_url: "noutbuki"
+
+page_titles:
+  main: "Торговый портал Shop.by – Все интернет-магазины Минска и Беларуси"
+  notebooks: "Купить ноутбук в Минске: цены на ноутбуки и нетбуки в интернет-магазинах – Shop.by"

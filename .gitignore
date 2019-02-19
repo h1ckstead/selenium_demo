@@ -13,4 +13,4 @@ env.bak/
 venv.bak/
 
 .idea
-
+.pytest_cache
