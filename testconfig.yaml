@@ -1,0 +1,7 @@
+urls:
+  base_url: "https://shop.by/"
+  notebooks_url: "noutbuki"
+
+page_titles:
+  main: "Торговый портал Shop.by – Все интернет-магазины Минска и Беларуси"
+  computers: "Компьютеры и комплектующие в Минске, купить компьютер, продажа, рассрочка, кредит, цены – Shop.by"
