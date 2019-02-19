@@ -16,14 +16,16 @@ class SectionPage(BasePage):
 
     def get_manufacturer_element_by_name(self, name):
         """
+        Get element by visible name from model filter on site
 
-        :param name:
+        :param name: str, for example checkbox label
         :return: selenium WebElement instance
         """
         return self.get_element((By.XPATH, self.MANUFACTURER.format(name)))
 
     def get_tooltip_value(self):
         """
+        Get items count from tooltip
 
         :return: selenium WebElement instance
         """
@@ -31,8 +33,9 @@ class SectionPage(BasePage):
 
     def get_filtered_value(self):
         """
+        Get items count from items list page
 
-        :return:
+        :return: str
         """
         raw_value = self.get_element(self.FILTERED_ITEMS_COUNT).text
         numbers = [i for i in raw_value.split() if i.isdigit()]
@@ -40,6 +43,7 @@ class SectionPage(BasePage):
 
     def get_tooltip_search_button(self):
         """
+        Get search button from tooltip
 
         :return: selenium WebElement instance
         """

@@ -13,9 +13,10 @@ class MainPage(BasePage):
 
     def get_catalogue_element_by_name(self, name):
         """
+        Get element by visible name from site's catalogue
 
-        :param name:
-        :return:
+        :param name: str, for example span title
+        :return: selenium WebElement instance
         """
         return self.get_element((By.XPATH, self.CATALOGUE_ITEM.format(name)))
 

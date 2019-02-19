@@ -1,7 +1,7 @@
-def test_site_navigation(main_page):
+def test_site_navigation(main_page, expected_page_titles):
     menu_element = main_page.get_catalogue_element_by_name("Компьютеры")
     main_page.hover_and_click(menu_element, "Ноутбуки")
-    assert main_page.title == "Купить ноутбук в Минске: цены на ноутбуки и нетбуки в интернет-магазинах – Shop.by"  # remove this assert
+    assert main_page.title == expected_page_titles.get("notebooks")
 
 
 def test_items_filtering(notebooks_page):

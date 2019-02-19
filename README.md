@@ -10,3 +10,5 @@ Setup:
 7. Run `pip install -r requirements.txt`
 8. Download Chrome webdriver for your system: http://chromedriver.chromium.org/downloads
 9. Set webdriver path as environment variable `export webdriver_path=/path/to/webdriver/executable`
+
+To execute tests simply run `pytest`
